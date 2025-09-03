@@ -48,7 +48,7 @@
 }
 
 .swiper-slide {
-   background-image: url('../images/Image_fx.jpg');
+   background-image: url('../images/Image_fx\ \(2\).jpg');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -57,6 +57,7 @@
    align-items: center;
    justify-content: center;
 }
+
 h4 {
    font-size: 18px;
 }
@@ -113,6 +114,16 @@ p {
 }
 
 .footerSection {
-   background: url('../images/Mask\ group\ \(1\).png');
-   height: 120px;
+   background-color: antiquewhite;
+   height: 50%;
+}
+
+.footer-nav {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+}
+
+.footer-nav li {
+   margin: 0 15px;
 }
