@@ -1,0 +1,118 @@
+@import url('common.css');
+
+.kv .kv--title {
+   height: 790px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.kv--title__cta {
+   padding: 10px 15px;
+   border: 1px solid #fff;
+   border-radius: 100px;
+}
+
+.content--title h3 {
+   margin-bottom: 60px;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 46px;
+   /*    display: flex;
+   align-items: center;
+   justify-content: center; 부모한테 줘야 센터로 자식한테 주면 x */
+}
+.content--title p {
+   font-size: 18px;
+}
+.content--title .line::before {
+   content: '';
+   width: 60px;
+   height: 1px;
+   background-color: #000;
+   position: absolute;
+   bottom: -20px;
+
+   /* 센터로 가고 싶을 떄 */
+   /* left: 47.5%; */
+}
+
+.service.earth h4 {
+   font-size: 24px;
+}
+.service.earth p {
+   font-size: 18px;
+}
+
+.swiper-slide {
+   background-image: url('../images/Image_fx.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+h4 {
+   font-size: 18px;
+}
+p {
+   font-size: 14px;
+}
+/* 텍스트 있으면 백그라운드  */
+.pointSection {
+   background: url('../images/Mask\ group.png');
+   background-size: cover;
+   background-position: bottom right;
+   /* top left,center,right 
+      center left,center,right
+      bottim left,center,right 
+   */
+   padding: 100px 0;
+   color: #fff;
+}
+
+.cta-btn {
+   padding: 5px 10px;
+   color: #fff;
+   font-weight: 500;
+   border: 1px solid #fff;
+   border-radius: 100px;
+   display: inline-block;
+}
+
+.new--images img {
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+   /*object-fit: cover; 이미지가 깨지기 않게 하기 위해 */
+}
+
+.new-text p {
+   overflow: hidden;
+   display: -webkit-box;
+   text-overflow: ellipsis;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   /* -ms-box-orient: vertical; */
+   /* -o-box-orient: vertical; */
+   /* webkit /ms / o */
+}
+
+.news--content {
+   border: 1px solid #eee;
+   padding: 0 0 20px 0;
+}
+
+.new-text {
+   padding: 0 20px;
+}
+
+.footerSection {
+   background: url('../images/Mask\ group\ \(1\).png');
+   height: 120px;
+}
